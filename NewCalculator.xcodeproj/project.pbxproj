@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4906F00A1D274E9200E57DAA /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4906F0091D274E9200E57DAA /* CalculatorBrain.swift */; };
 		49F7FBAD1CED32CA0001B91A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7FBAC1CED32CA0001B91A /* AppDelegate.swift */; };
 		49F7FBAF1CED32CA0001B91A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F7FBAE1CED32CA0001B91A /* ViewController.swift */; };
 		49F7FBB21CED32CA0001B91A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F7FBB01CED32CA0001B91A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4906F0091D274E9200E57DAA /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		49F7FBA91CED32C90001B91A /* NewCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49F7FBAC1CED32CA0001B91A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		49F7FBAE1CED32CA0001B91A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				49F7FBBE1CED886D0001B91A /* Supporting Files */,
 				49F7FBAE1CED32CA0001B91A /* ViewController.swift */,
+				4906F0091D274E9200E57DAA /* CalculatorBrain.swift */,
 				49F7FBB01CED32CA0001B91A /* Main.storyboard */,
 			);
 			path = NewCalculator;
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4906F00A1D274E9200E57DAA /* CalculatorBrain.swift in Sources */,
 				49F7FBAF1CED32CA0001B91A /* ViewController.swift in Sources */,
 				49F7FBAD1CED32CA0001B91A /* AppDelegate.swift in Sources */,
 			);
@@ -296,6 +300,7 @@
 				49F7FBBD1CED32CA0001B91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
